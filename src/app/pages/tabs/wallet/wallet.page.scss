@@ -8,9 +8,15 @@
 
 ion-header {
     background: var(--ion-color-light);
+    ion-toolbar {
+        --min-height: 0;
+        // --padding-start: 0;
+        // --padding-end: 0;
+        // --padding-top: 0;
+    }
     ion-list {
         background: var(--ion-color-primary);
-        padding: 2vh 0 9vh 0;
+        padding: 1vh 0 9vh 0;
         ion-item {
             ion-label {
                 font-weight: bold;
